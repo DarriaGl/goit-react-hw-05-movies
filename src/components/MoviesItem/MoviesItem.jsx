@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import moviePoster from '../../images/photoshop-film-strip.jpg';
-import { Item, Title, Poster, VoteAverage } from './MovieItem.styled';
+import { Item, Title, PosterImage, Votes } from './MovieItem.styled';
 import { BsFillStarFill } from 'react-icons/bs';
 
 const MoviesItem = ({ element }) => {
@@ -12,13 +12,13 @@ const MoviesItem = ({ element }) => {
   return (
     <Item>
       <Link to={`/movies/${element.id}`} state={{ from: location }}>
-        <Poster src={src} alt={`Poster for ${element.title}`} />
+        <PosterImage src={src} alt={`Poster for ${element.title}`} />
         <Title>{element.title}</Title>
 
-        <VoteAverage>
+        <Votes>
           <BsFillStarFill />
           <p>{element.vote_average.toFixed(1)}</p>
-        </VoteAverage>
+        </Votes>
       </Link>
     </Item>
   );

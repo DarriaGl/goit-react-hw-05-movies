@@ -1,15 +1,15 @@
 import {
   Poster,
-  VoteAverage,
-  Wrap,
-  WrapInfo,
-  WrapInformation,
-  NavList,
+  Votes,
+  Container,
+  Wraper,
+  Information,
+  Navigation,
   Title,
   TextTitle,
   Text,
   Link,
-  WrapCastReview,
+  CastReview,
 } from './MovieDetails.styled';
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
@@ -31,10 +31,10 @@ const MovieDetails = ({ movie }) => {
     );
   const rating =
     movie.vote_average & (movie.vote_average !== 0) ? (
-      <VoteAverage>
+      <Votes>
         <BsFillStarFill color="#6d90a8" />
         <p>{movie.vote_average.toFixed(1)}</p>
-      </VoteAverage>
+      </Votes>
     ) : null;
 
   const overview =
@@ -53,31 +53,31 @@ const MovieDetails = ({ movie }) => {
 
   return (
     <>
-      <Wrap>
+      <Container>
         <Poster src={src} alt={`Poster for ${movie.title}`} />
-        <WrapInfo>
-          <WrapInformation>
+        <Wraper>
+          <Information>
             {title}
             {rating}
             {overview}
             {genres}
-          </WrapInformation>
-          <WrapCastReview>
+          </Information>
+          <CastReview>
             <TextTitle>Information</TextTitle>
-            <NavList>
+            <Navigation>
               <li>
                 <Link to="cast">Cast</Link>
               </li>
               <li>
                 <Link to="reviews">Reviews</Link>
               </li>
-            </NavList>
+            </Navigation>
             <Suspense fallback={<div>Loading...</div>}>
               <Outlet />
             </Suspense>
-          </WrapCastReview>
-        </WrapInfo>
-      </Wrap>
+          </CastReview>
+        </Wraper>
+      </Container>
     </>
   );
 };

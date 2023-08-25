@@ -4,20 +4,24 @@ import { NavLink } from 'react-router-dom';
 export const NavList = styled.ul`
   display: flex;
   gap: 30px;
-  padding: 20px 0;
+  padding: 20px 0 0;
   justify-content: center;
   border: 3px dashed #fff;
+  border-radius: 10px 10px 0 0;
   margin-bottom: 20px;
 `;
 
 export const Link = styled(NavLink)`
-  padding: 20px;
+  padding: 20px 80px;
+
   text-transform: uppercase;
   font-weight: 700;
-  transform: scale(1);
+  font-size: 26px;
   color: #fff;
+  background-color: #e8e1d1;
+  border-radius: 10px 10px 0 0;
   &.active {
-    transform: scale(1.3);
-    color: #f0d24c;
+    color: #964b00;
+    background-color: #f0d24c;
   }
 `;

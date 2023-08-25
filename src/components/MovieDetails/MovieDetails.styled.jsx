@@ -9,7 +9,7 @@ export const Poster = styled.img`
   margin-bottom: 15px;
   border-radius: 10px;
 `;
-export const VoteAverage = styled.div`
+export const Votes = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
@@ -17,23 +17,23 @@ export const VoteAverage = styled.div`
   margin-bottom: 15px;
 `;
 
-export const Wrap = styled.div`
+export const Container = styled.div`
   padding: 10px;
   display: flex;
   gap: 15px;
   background-color: #aa9c66;
 `;
-export const WrapInfo = styled.div`
+export const Wraper = styled.div`
   display: flex;
   flex-direction: column;
 `;
-export const WrapInformation = styled.div`
+export const Information = styled.div`
   min-height: 320px;
 `;
 export const Title = styled.h1`
   text-align: center;
 `;
-export const NavList = styled.ul`
+export const Navigation = styled.ul`
   display: flex;
   align-items: flex-end;
   gap: 5px;
@@ -64,6 +64,6 @@ export const Link = styled(NavLink)`
   }
 `;
 
-export const WrapCastReview = styled.div`
-  width: 495px;
+export const CastReview = styled.div`
+  width: 550px;
 `;

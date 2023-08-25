@@ -13,7 +13,7 @@ export const Item = styled.li`
   margin-bottom: 10px;
 `;
 
-export const Poster = styled.img`
+export const PosterImage = styled.img`
   height: 300px;
   object-fit: cover;
   object-position: center;
@@ -27,9 +27,10 @@ export const Title = styled.p`
   padding-left: 15px;
 `;
 
-export const VoteAverage = styled.div`
+export const Votes = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
   padding-left: 15px;
+  padding-bottom: 10px;
 `;

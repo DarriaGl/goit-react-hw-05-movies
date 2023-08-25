@@ -50,4 +50,5 @@ img {
   min-height: 100vh;
   margin: 0 auto;
   background-color: #964b00;
+  border-radius: 10px;
 }
