@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-05-movies/static/css/main.79f52917.css",
+    "main.css": "/goit-react-hw-05-movies/static/css/main.c3fd58fb.css",
     "main.js": "/goit-react-hw-05-movies/static/js/main.59e022e9.js",
     "static/js/221.1b03158b.chunk.js": "/goit-react-hw-05-movies/static/js/221.1b03158b.chunk.js",
     "static/js/712.547673af.chunk.js": "/goit-react-hw-05-movies/static/js/712.547673af.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/movie.png": "/goit-react-hw-05-movies/static/media/movie.4260f3ef44fe44cde2a6.png",
     "static/media/1677361484_bogatyr-club-p-fon-kino-krasivii-fon-1.jpg": "/goit-react-hw-05-movies/static/media/1677361484_bogatyr-club-p-fon-kino-krasivii-fon-1.8f07e354e2aed8763db8.jpg",
     "index.html": "/goit-react-hw-05-movies/index.html",
-    "main.79f52917.css.map": "/goit-react-hw-05-movies/static/css/main.79f52917.css.map",
+    "main.c3fd58fb.css.map": "/goit-react-hw-05-movies/static/css/main.c3fd58fb.css.map",
     "main.59e022e9.js.map": "/goit-react-hw-05-movies/static/js/main.59e022e9.js.map",
     "221.1b03158b.chunk.js.map": "/goit-react-hw-05-movies/static/js/221.1b03158b.chunk.js.map",
     "712.547673af.chunk.js.map": "/goit-react-hw-05-movies/static/js/712.547673af.chunk.js.map",
@@ -27,7 +27,7 @@
     "479.f329f222.chunk.js.map": "/goit-react-hw-05-movies/static/js/479.f329f222.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79f52917.css",
+    "static/css/main.c3fd58fb.css",
     "static/js/main.59e022e9.js"
   ]
 }
